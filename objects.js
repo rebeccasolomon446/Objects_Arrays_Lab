@@ -85,5 +85,5 @@ totalPetAge = tortoise.age + cat.age + dog.age;
 /**
  * Q8. It's turns out that Morris isn't a European Shorthair. We don't actually know his real breed, so remove that key from his object
  */
-delete[cat.breed];
+delete cat.breed;
 console.log(cat);
