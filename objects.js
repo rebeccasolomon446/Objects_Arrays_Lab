@@ -70,8 +70,9 @@ console.log(parrot);
 /**
  * Q6. Ella's favourite food is dandelion, add this information to her object
  */
+tortoise.food = "dandelion";
 
-// console.log(tortoise);
+console.log(tortoise);
 
 /**
  * Q7. What's the combined age of all the pets?
