@@ -60,7 +60,7 @@ console.log(northernIrelandKeys);
 scotland = unitedKingdom[0];
 if (scotland.population > (northernIreland.population && wales.population && england.population)) {
   console.log("Scotland's population is the biggest in the UK");
-} else if(scotland.population < (northernIreland.population || wales.population || england.population)) {
+} else if(scotland.population < (northernIreland.population && wales.population && england.population)) {
   console.log("Scotland's population is the smallest in the UK");
 } else {
   console.log("Scotland's population number is somewhere in the middle");
