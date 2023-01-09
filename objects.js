@@ -65,7 +65,7 @@ parrot = {
   colours: ["grey", "black", "white"]
 }
 
-console.log(parrot);
+// console.log(parrot);
 
 /**
  * Q6. Ella's favourite food is dandelion, add this information to her object
